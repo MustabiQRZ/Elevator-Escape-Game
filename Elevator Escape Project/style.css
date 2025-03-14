@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.elevbutton {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: block;
+    background-color: darkgray;
+    font-family: cursive;
+}
+
+.elevbutton:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.goback {
+    text-align: center;
+    font-family: cursive;
+    margin-top: 350px;
+    cursor: pointer;
+}
+
+.goback:hover {
+    color: rgba(0, 255, 255, 0.9);
+}
+
+#X {
+    font-family: monospace;
+    text-align: center;
+    background-color: #ff0000;
+    margin-left: 260px;
+}
+
+#X:hover {
+    background-color: crimson;
+}
+
+.passwordInput {
+    color: whitesmoke;
+    font-family: 'Salsa', cursive;
+}
+
+.panel {
+    color: darkcyan;
+    font-family: 'Salsa', cursive;
+    position: absolute;
+}
+
+#fine {
+    margin-top: 125px;
+    margin-left: 100px;
+}
+
+.absolute {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+#words {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#submit {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: darksalmon;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #ad5234;
+}
+
+#room {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 175px;
+    width: 390px;
+    height: 560px;
+}
+
+.rooms {
+    position: absolute;
+    width: 390px;
+    height: 560px;
+}
+
+.floor {
+    width: 390px;
+    height: 560px;
+    position: absolute;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.firstFloor {
+    background-image: url("https://www.paint.org/wp-content/uploads/2019/11/JAN19_White-door_AdobeStock_66200743_Credit-nikolarakic.jpg");
+    background-size: contain;
+    margin: 0 auto;
+    width: 540px;
+    height: 400px;
+    border: 1px;
+    border-color: greenyellow;
+    border-style: solid;
+}
+
+#openDoor {
+    position: absolute;
+    width: 131px;
+    margin-left: 316px;
+    margin-top: 48.5px;
+    display: none;
+}
+
+#openDoor:hover {
+    cursor: pointer;
+}
+
+.secondFloor {
+    background-image: url("sprites/1690975639_en-idei-club-p-sketch-of-drawing-room-dizain-vkontakte-29.jpg");
+    background-size: contain;
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    border: 1px;
+    border-color: greenyellow;
+    border-style: solid;
+}
+
+#popup {
+    position: absolute;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 400px;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -200px;
+    display: none;
+}
+
+#popup1 {
+    position: absolute;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 400px;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -200px;
+    display: none;
+}
+
+#suitcase {
+    margin-top: 210px;
+    margin-left: 325px;
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+}
+
+.thirdFloor {
+    background-image: url("https://www.worldatlas.com/upload/1d/79/58/shutterstock-2231455191.jpg");
+    background-size: contain;
+    margin: 0 auto;
+    width: 540px;
+    height: 400px;
+    border: 1px;
+    border-color: greenyellow;
+    border-style: solid;
+}
+
+#satellite {
+    position: absolute;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+#buttons {
+    width: 50px;
+    height: 150px;
+    margin-left: 604px;
+    margin-top: 173px;
+    border-color: black;
+    border: 3px;
+    border-style: solid;
+    position: absolute;
+}
+
+.elevator {
+    background-image: url('sprites/f2f502e9af050bafcd9774d1263aebc6_t.png');
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    width: 780px;
+    height: 740px;
+    padding: 10px;
+}
